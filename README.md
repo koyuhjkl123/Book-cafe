@@ -293,6 +293,8 @@ public class Exam01_Book_Rental extends Exam01_Book  {
 <br>
 
 * 책 대여 결과
+<br>
+
 ![책 관리시스템_01](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/30dc4769-7863-445e-8750-f0af5ec9aa38)
 <br>
 
