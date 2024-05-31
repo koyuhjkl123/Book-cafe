@@ -332,9 +332,13 @@ for(int i=0; i < books.size(); i++) {
 <br>
 
 * 책 대여 가능
+<br>
+
 ![책 관리시스템_04](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/284fe87d-4e66-4807-870e-6200884420d5)
 
 * 책 대여 했다면 불가
+<br>
+
 ![책 관리시스템_02](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/f74548b3-5671-43d2-934b-abbf5b1197d5)
 
 ## Exam01_Drink / 음료 정보
