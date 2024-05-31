@@ -294,7 +294,40 @@ public class Exam01_Book_Rental extends Exam01_Book  {
 
 * 책 대여 결과
 ![책 관리시스템_01](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/30dc4769-7863-445e-8750-f0af5ec9aa38)
+<br>
+
 ![책 관리시스템_02](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/f74548b3-5671-43d2-934b-abbf5b1197d5)
+
+<br>
+
+* 기존에 있는 재고중에 대여 가능한지 확인 후 "JOptionPane.showMessageDialog" 활용하여 메세지를 출력하여 대여 가능 여부를 보냅니다.
+<details>
+    <summary>코드 보기</summary>
+
+```java
+for(int i=0; i < books.size(); i++) {
+			StringBuilder ab = new StringBuilder();
+//			대여할 책이 기존 책에 있는지
+				if (books.get(i).getTitle().equals(bookname)) {
+					isbook = true;
+//				해당 책이 대여한게 있는지
+					if (books.get(i).book_isrental) {
+						JOptionPane.showMessageDialog(null, "이미 대여된 " + books.get(i).getTitle() + "책입니다.", "북 카페",
+								JOptionPane.PLAIN_MESSAGE);
+//					책이 있고 대여한게 없다면 대여 가능
+					} else {
+						JOptionPane.showMessageDialog(null, "해당" + books.get(i).getTitle() + " 대여가 가능합니다.",
+								"북 카페", JOptionPane.PLAIN_MESSAGE);
+						books.get(i).book_isrental = true; // 해당 책은 대여가 됬다.
+						book_rental.setBookName(bookname);
+						book_rental.setIsRental(books.get(i).book_isrental);
+					}
+					break;
+				}
+		}
+```
+</details>
+
 ![책 관리시스템_03](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/39c69d55-6e83-45f8-91ac-e684508c621b)
 
 
