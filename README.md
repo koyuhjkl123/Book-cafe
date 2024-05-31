@@ -298,7 +298,7 @@ public class Exam01_Book_Rental extends Exam01_Book  {
 ![책 관리시스템_01](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/30dc4769-7863-445e-8750-f0af5ec9aa38)
 <br>
 
-![책 관리시스템_02](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/f74548b3-5671-43d2-934b-abbf5b1197d5)
+![책 관리시스템_03](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/39c69d55-6e83-45f8-91ac-e684508c621b)
 
 <br>
 
@@ -331,8 +331,11 @@ for(int i=0; i < books.size(); i++) {
 </details>
 <br>
 
-![책 관리시스템_03](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/39c69d55-6e83-45f8-91ac-e684508c621b)
+* 책 대여 가능
+![책 관리시스템_04](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/284fe87d-4e66-4807-870e-6200884420d5)
 
+* 책 대여 했다면 불가
+![책 관리시스템_02](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/f74548b3-5671-43d2-934b-abbf5b1197d5)
 
 ## Exam01_Drink / 음료 정보
 
