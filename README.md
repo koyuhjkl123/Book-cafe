@@ -343,7 +343,7 @@ for(int i=0; i < books.size(); i++) {
 ![책 관리시스템_02](https://github.com/koyuhjkl123/Book-cafe/assets/94844952/f74548b3-5671-43d2-934b-abbf5b1197d5)
 
 ## Exam01_Drink / 음료 정보
-음료 정보(이름, 가격) 정보
+음료 정보를 확인 할 수 있습니다
 
 <details>
     <summary>코드 보기</summary>
