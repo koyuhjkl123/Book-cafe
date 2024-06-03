@@ -302,7 +302,8 @@ public class Exam01_Book_Rental extends Exam01_Book  {
 
 <br>
 
-* 기존에 있는 재고중에 대여 가능한지 확인 후 "JOptionPane.showMessageDialog" 활용하여 메세지를 출력하여 대여 가능 여부를 보냅니다.
+* 기존에 있는 재고중에 대여 가능한지 확인 후 "JOptionPane.showMessageDialog" 활용하여 메세지를 출력하여 대여 가능 여부를 보냅니다. 
+
 <details>
     <summary>코드 보기</summary>
 
